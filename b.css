@@ -1,0 +1,343 @@
+    body {
+    /*  background-color: #111111;
+  color: #ffffff;*/
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    } 
+    
+    .header {
+      background-color: #1cb752;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    
+    .content {
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .cover-artwork {
+      margin-bottom: 20px;
+    }
+    
+    .cover-artwork img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .song-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .artist-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: BLACK;
+    text-transform: uppercase;
+  }
+    
+    .cta-button {
+      background-color: #1cb752;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    
+    .choose-music-service {
+      font-size: 16px;
+      margin-top: 40px;
+    }
+    
+    .music-service-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .music-service-icons img {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+    }
+    
+    .footer {
+      background-color: #1cb752;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .feature-description::after {
+      content: "::";
+      margin-left: 5px;
+      color: #1cb752;
+      font-weight: bold;
+    }
+
+  .music-service img {
+    width: 125px;
+    height: 40px;
+  }
+
+  .choose-music-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .music-service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .music-service img {
+    width: 100px;
+    height: 32px;
+  }
+  
+  .play-button {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #1cb752;
+  }
+  
+  hr {
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+
+  .platform {
+  display: flex;
+  align-items: center;
+}
+
+.platform .platform-logo {
+  margin-right: 10px;
+}
+
+.platform .platform-info {
+  display: flex;
+  align-items: center;
+}
+
+.platform .platform-name {
+  margin-right: 10px;
+}
+
+.platform .play-link {
+  display: flex;
+  align-items: center;
+  color: #1cb752;
+  text-decoration: none;
+}
+
+.platform .play-link i {
+  margin-right: 5px;
+}
+
+.play-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #1cb752;
+  border-radius: 5px;
+  color: #1cb752;
+  text-decoration: none;
+}
+
+.play-link:hover {
+  background-color: #1cb752;
+  color: #fff;
+}
+
+.play-link .play-icon {
+  margin-right: 5px;
+}
+
+.play-link .play-text {
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.footer {
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+.footer-links a:hover {
+  text-decoration: none;
+}
+
+.language-redirect {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.language-redirect p {
+  margin: 0;
+}
+
+.language-select {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.language-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #1e1e1e;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+.language-select select::-ms-expand {
+  display: none;
+}
+
+.language-select select:hover {
+  background-color: #333;
+}
+
+.language-select select:active,
+.language-select select:focus {
+  background-color: #333;
+}
+
+.language-select select option {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.footer-links a,
+.back-to-top a {
+  font-size: 16px;
+}
+
+.footer-links a:hover,
+.back-to-top a:hover {
+  text-decoration: none;
+  color: #1cb752;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-social i {
+  transition: color 0.3s;
+}
+
+.footer-social a:hover i {
+  color: #1cb752;
+}
+
+::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background-color: #111;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: #1cb752;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #199f4b;
+    }
+    
+    @keyframes slideLeft {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
